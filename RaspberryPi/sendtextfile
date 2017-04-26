@@ -1,0 +1,10 @@
+#!/bin/bash
+#This script sends an email
+
+#Note that this is NOT a python script, but a bash script.
+#To run this, first change the permissions on the file (only necessary once):
+# sudo chmod 755 sendtextfile
+#Then run the script with no extension:
+# ./sendtextfile
+
+mail some.address@gmail.com < file.txt
