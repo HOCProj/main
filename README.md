@@ -17,6 +17,8 @@ http://www.raspihub.com/go/4c3370e8431b091c1698106135127581a646f3e2829fc26123d2b
 SSMPT (Send email):
 http://stackoverflow.com/questions/38391412/raspberry-pi-send-mail-from-command-line-using-gmail-smtp-server
 
+mailutils
+
 Fetchmail (Receive email):
 http://www.raspberry-projects.com/pi/software_utilities/email/fetchmail-to-receive-email
 
