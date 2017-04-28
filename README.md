@@ -22,6 +22,8 @@ mailutils
 Fetchmail (Receive email):
 http://www.raspberry-projects.com/pi/software_utilities/email/fetchmail-to-receive-email
 
+chmod 755 and chown
+
 These libraries will be automatically downloaded and installed by executing the GitAll.py file.
 
 **User Manual**
