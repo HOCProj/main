@@ -1,0 +1,1 @@
+grep -n "Subject" "/home/pi/email/NewMail"
