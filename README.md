@@ -14,17 +14,11 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=162900&p=1054189
 AVRDude:
 http://www.raspihub.com/go/4c3370e8431b091c1698106135127581a646f3e2829fc26123d2bbfb34199dfa
 
-Email Server:
+SSMPT (Send email):
 http://stackoverflow.com/questions/38391412/raspberry-pi-send-mail-from-command-line-using-gmail-smtp-server
-ssmtp to send emails
-/Software and Utilities / Email / ssmtp to send emails
-Adam
-ssmtp is a nice and simple solution for sending emails from the command line etc.
 
-Installing
-
-sudo apt-get install ssmtp
-sudo apt-get install mailutils
+Fetchmail (Receive email):
+http://www.raspberry-projects.com/pi/software_utilities/email/fetchmail-to-receive-email
 
 These libraries will be automatically downloaded and installed by executing the GitAll.py file.
 
