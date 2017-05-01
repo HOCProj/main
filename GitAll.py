@@ -55,3 +55,9 @@ print("Got ATTiny85 files!")
 print("Git telepot...")
 sudo pip install telepot
 print("Got Telepot!")
+
+#Git SSMTP (email)
+print("Git SSMTP...")
+sudo apt-get install ssmtp
+sudo apt-get install mailutils
+print("Got SSMTP!")
