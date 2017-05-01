@@ -57,7 +57,3 @@ print("Got SSMTP!")
 
 print("ALL LIBRARIES INSTALLED")
 print("")
-
-print("Git GitHub Repository...")
-sudo git http://github.com/HOCProj/main
-print("Got GitHub Repository!")
