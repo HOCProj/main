@@ -43,14 +43,6 @@ cd avrdude/avrdude
 ./bootstrap && ./configure && sudo make install
 print("Got AVRDude!")
 
-#Git ATTiny example scripts
-print("Git ATTiny85 files...")
-cd /home/pi
-mkdir ATTiny85
-cd ATTiny85
-git clone https://github.com/HOCProj/ main/ ATTiny85
-print("Got ATTiny85 files!")
-
 #Git Telepot (Telegram library)
 print("Git telepot...")
 sudo pip install telepot
@@ -61,3 +53,11 @@ print("Git SSMTP...")
 sudo apt-get install ssmtp
 sudo apt-get install mailutils
 print("Got SSMTP!")
+
+
+print("ALL LIBRARIES INSTALLED")
+print("")
+
+print("Git GitHub Repository...")
+sudo git http://github.com/HOCProj/main
+print("Got GitHub Repository!")
