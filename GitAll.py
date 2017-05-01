@@ -42,9 +42,13 @@ cd avrdude/avrdude
 ./bootstrap && ./configure && sudo make install
 print(Got AVRDude!)
 
-#Git ATTiny example script
+#Git ATTiny example scripts
 cd ~
 mkdir ATtiny85
 cd ATtiny85
 mkdir blinky
 cd blinky
+
+#Git Telepot (Telegram library)
+sudo apt-get install python3-pip
+sudo pip install telepot
