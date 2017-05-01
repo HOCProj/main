@@ -2,7 +2,7 @@
 
 *Hutchins-O'Dell-Cooper Senior Design Project Repository*
 
-This project uses the following libraries:
+This project uses the following libraries and guides:
 
 Adafruit MCP3008 library:
 https://github.com/adafruit/Adafruit_Python_MCP3008
@@ -17,17 +17,10 @@ http://www.raspihub.com/go/4c3370e8431b091c1698106135127581a646f3e2829fc26123d2b
 SSMPT (Send email):
 http://stackoverflow.com/questions/38391412/raspberry-pi-send-mail-from-command-line-using-gmail-smtp-server
 
-mailutils
-
 Fetchmail (Receive email):
 http://www.raspberry-projects.com/pi/software_utilities/email/fetchmail-to-receive-email
 
-chmod 755 and chown
-
-Schedule tasks:
-https://www.raspberrypi.org/documentation/linux/usage/cron.md
-
-These libraries will be automatically downloaded and installed by executing the GitAll.py file.
+These libraries will be automatically downloaded and installed by executing the GitAll.py file. After installation, some parts require additional setup. Refer to the corresponding guide.
 
 **User Manual**
 
