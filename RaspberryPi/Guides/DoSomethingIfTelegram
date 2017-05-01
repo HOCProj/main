@@ -1,1 +1,23 @@
+#This script performs an action (turn GPIO 4 on or off) if it receives certain commands via Telegram
+import telepot
+import time
+import random
+import os
 
+bot = telepot.Bot('358008020:AAH6DXEkZBuOUV5yAryQjME8JRsYdMRBGpQ')
+
+def handle(msg):
+    chat_id = msg['chat']['id']
+    command = msg['text']
+    print('Got command: %s' % command)
+    if command == '/on':
+        os.system('python3 4on.py')
+        #bot.sendMessage(chat_id,random.randint(1,6))
+    if command == '/off':
+        os.system('python3 4off.py')
+
+bot.message_loop(handle)
+print('I am listening ...')
+
+while 1:
+        time.sleep(10)
